@@ -1,0 +1,2 @@
+INSERT INTO Testbot (user_id, user_nickname, user_name, user_mail, user_number) VALUES ('{user_id}'', '{user_nickname}', '{user_name}', '{user_mail}', '{user_phone}') ON CONFLICT (user_id) DO UPDATE SET user_name='{user_name}'"
+SELECT * FROM items ORDER BY id DESC LIMIT 1        
